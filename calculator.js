@@ -11,6 +11,7 @@ function multiply(a, b){
 }
 
 function divide (a, b){
+    if(Number(b) === 0) return undefined;
     return a / b;
 }
 
